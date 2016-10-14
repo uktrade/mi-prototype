@@ -1,0 +1,4 @@
+node_modules
+npm*.log
+**/vendor/**/mathjax/**
+!**/vendor/**/mathjax/Mathjax.js

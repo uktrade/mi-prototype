@@ -1,0 +1,20 @@
+{
+  "name": "mi-prototype",
+  "version": "0.0.1",
+  "description": "Testing some charting libs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app/app.js",
+    "dev": "nodemon src/app/app.js"
+  },
+  "author": "Graham Veal",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.14.0",
+    "morgan": "1.7.0",
+    "nunjucks": "2.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "1.11.0"
+  }
+}

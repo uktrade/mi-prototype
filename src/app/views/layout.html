@@ -1,0 +1,22 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>{% block title %}Home{% endblock %}</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+		}
+	</style>
+</head>
+<body>
+	{% block content %}{% endblock %}
+
+	<script src="/public/vendor/plotly-v1.18.0/plotly.min.js"></script>
+	<script src="/public/js/mi.js"></script>
+	<script src="/public/js/mi.map.js"></script>
+	<script src="/public/js/mi.bar.js"></script>
+	<script src="/public/js/mi.scatter.js"></script>
+
+	{% block pageScript %}{% endblock %}
+</body>
+</html>
